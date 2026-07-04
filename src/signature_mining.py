@@ -90,7 +90,7 @@ def main():
         print("Too few positives to mine; re-run after more consensus/gold."); return
 
     ranked, cp, cn = fightin_words(pos, neg)
-    print("\n== Terms most DISTINCTIVE of the the target construct-positive set (Fightin' Words z) ==")
+    print("\n== Terms most DISTINCTIVE of the target-construct-positive set (Fightin' Words z) ==")
     for w, zv in ranked[:25]:
         print(f"  {w:18} z={zv:+.2f}  pos={cp[w]:>3} neg={cn[w]:>3}")
     print("\n== Terms most distinctive of NEGATIVES (for the discriminative screen) ==")

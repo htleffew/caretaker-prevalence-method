@@ -22,6 +22,10 @@ from collections import defaultdict
 HERE = os.path.dirname(os.path.abspath(__file__))
 EPS = 1e-6
 
+# Column carrying the yes/no/indeterminate judge verdict. Construct-specific runs name it
+# is_<construct>_instance; override via env var for your own prediction CSVs.
+LABEL_COLUMN = os.environ.get("LC_LABEL_COLUMN", "is_target_construct_instance")
+
 
 def load(judge_names):
     mats = {}
@@ -35,7 +39,7 @@ def load(judge_names):
     names = sorted(mats)
     ids = sorted(set.intersection(*[set(mats[n]) for n in names]))
     def lab(n, d):
-        v = mats[n][d].get("is_the target construct_instance")
+        v = mats[n][d].get(LABEL_COLUMN)
         return 1 if v == "yes" else (0 if v == "no" else None)  # indeterminate -> abstain
     obs = {d: {n: lab(n, d) for n in names} for d in ids}
     strat = {d: mats[names[0]][d].get("source_stratum", "?") for d in ids}
