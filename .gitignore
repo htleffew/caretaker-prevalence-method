@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+# graphify AST cache: machine-local, content-hash keyed, regenerable
+graphify-out/cache/
