@@ -1,426 +1,10 @@
 {
   "nodes": [
     {
-      "id": "src_ht_prevalence",
-      "label": "src/ht_prevalence.py",
-      "file_type": "code",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "src_ht_prevalence_stratum",
-      "label": "Stratum",
-      "file_type": "code",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L36",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_ht_prevalence_stratum_post_init",
-      "label": ".__post_init__()",
-      "file_type": "code",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L50",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_ht_prevalence_stratum_p_hat",
-      "label": ".p_hat()",
-      "file_type": "code",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L59",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_ht_prevalence_prevalenceestimate",
-      "label": "PrevalenceEstimate",
-      "file_type": "code",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L65",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_ht_prevalence_horvitz_thompson_prevalence",
-      "label": "horvitz_thompson_prevalence()",
-      "file_type": "code",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L76",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_ht_prevalence_neyman_allocation",
-      "label": "neyman_allocation()",
-      "file_type": "code",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L139",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_ht_prevalence_beta_binomial_upper",
-      "label": "beta_binomial_upper()",
-      "file_type": "code",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L194",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_ht_prevalence_clopper_pearson_upper",
-      "label": "clopper_pearson_upper()",
-      "file_type": "code",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L226",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_ht_prevalence_rationale_1",
-      "label": "Rare-event prevalence estimation toolkit.  Implements the four estimators an a",
-      "file_type": "rationale",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L1",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_ht_prevalence_rationale_37",
-      "label": "One stratum in a stratified prevalence design.      N : int   population size",
-      "file_type": "rationale",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L37",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_ht_prevalence_rationale_60",
-      "label": "Within-stratum sample proportion.",
-      "file_type": "rationale",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L60",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_ht_prevalence_rationale_80",
-      "label": "r\"\"\"Stratified Horvitz-Thompson prevalence estimator.      Each unit in stratu",
-      "file_type": "rationale",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L80",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_ht_prevalence_rationale_144",
-      "label": "r\"\"\"Optimal (Neyman) allocation of a fixed total sample across strata.      Mi",
-      "file_type": "rationale",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L144",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_ht_prevalence_rationale_201",
-      "label": "r\"\"\"Upper (1 - alpha) credible bound on a proportion via the Beta-Binomial conju",
-      "file_type": "rationale",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L201",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_ht_prevalence_rationale_227",
-      "label": "r\"\"\"Exact (Clopper-Pearson) one-sided upper confidence bound on a binomial propo",
-      "file_type": "rationale",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L227",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_latent_class",
-      "label": "src/latent_class.py",
-      "file_type": "code",
-      "source_file": "src/latent_class.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "src_latent_class_load",
-      "label": "load()",
-      "file_type": "code",
-      "source_file": "src/latent_class.py",
-      "source_location": "L30",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_latent_class_em",
-      "label": "em()",
-      "file_type": "code",
-      "source_file": "src/latent_class.py",
-      "source_location": "L49",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_latent_class_bootstrap_ci",
-      "label": "bootstrap_ci()",
-      "file_type": "code",
-      "source_file": "src/latent_class.py",
-      "source_location": "L85",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_latent_class_independence_diag",
-      "label": "independence_diag()",
-      "file_type": "code",
-      "source_file": "src/latent_class.py",
-      "source_location": "L98",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_latent_class_main",
-      "label": "main()",
-      "file_type": "code",
-      "source_file": "src/latent_class.py",
-      "source_location": "L117",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_latent_class_rationale_1",
-      "label": "No-gold-standard prevalence + per-judge accuracy via Dawid-Skene / Hui-Walter la",
-      "file_type": "rationale",
-      "source_file": "src/latent_class.py",
-      "source_location": "L1",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_latent_class_rationale_99",
-      "label": "Residual co-error: do two judges err together more than independence predicts?",
-      "file_type": "rationale",
-      "source_file": "src/latent_class.py",
-      "source_location": "L99",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_signature_mining",
-      "label": "src/signature_mining.py",
-      "file_type": "code",
-      "source_file": "src/signature_mining.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "src_signature_mining_toks",
-      "label": "toks()",
-      "file_type": "code",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L58",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_signature_mining_fightin_words",
-      "label": "fightin_words()",
-      "file_type": "code",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L62",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_signature_mining_main",
-      "label": "main()",
-      "file_type": "code",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L83",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_signature_mining_rationale_1",
-      "label": "Rediscover the construct's linguistic signature from the ensemble's high-agreeme",
-      "file_type": "rationale",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L1",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_signature_mining_rationale_63",
-      "label": "Monroe et al. log-odds with informative Dirichlet prior (prior = combined counts",
-      "file_type": "rationale",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L63",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_test_ht_prevalence",
-      "label": "src/test_ht_prevalence.py",
-      "file_type": "code",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "src_test_ht_prevalence_test_ht_single_stratum_is_sample_proportion",
-      "label": "test_ht_single_stratum_is_sample_proportion()",
-      "file_type": "code",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L27",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_test_ht_prevalence_test_ht_is_weighted_mean_of_stratum_proportions",
-      "label": "test_ht_is_weighted_mean_of_stratum_proportions()",
-      "file_type": "code",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L32",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_test_ht_prevalence_test_ht_census_stratum_has_zero_variance",
-      "label": "test_ht_census_stratum_has_zero_variance()",
-      "file_type": "code",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L39",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_test_ht_prevalence_test_ht_unbiased_by_monte_carlo",
-      "label": "test_ht_unbiased_by_monte_carlo()",
-      "file_type": "code",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L46",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_test_ht_prevalence_test_neyman_matches_closed_form",
-      "label": "test_neyman_matches_closed_form()",
-      "file_type": "code",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L70",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_test_ht_prevalence_test_neyman_sums_exactly_and_is_positive",
-      "label": "test_neyman_sums_exactly_and_is_positive()",
-      "file_type": "code",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L77",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_test_ht_prevalence_test_neyman_degenerate_falls_back_to_proportional",
-      "label": "test_neyman_degenerate_falls_back_to_proportional()",
-      "file_type": "code",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L84",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_test_ht_prevalence_test_beta_binomial_uniform_prior_equals_beta_quantile",
-      "label": "test_beta_binomial_uniform_prior_equals_beta_quantile()",
-      "file_type": "code",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L91",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_test_ht_prevalence_test_beta_binomial_zero_event_is_below_one_and_positive",
-      "label": "test_beta_binomial_zero_event_is_below_one_and_positive()",
-      "file_type": "code",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L98",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_test_ht_prevalence_test_clopper_pearson_zero_event_closed_form",
-      "label": "test_clopper_pearson_zero_event_closed_form()",
-      "file_type": "code",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L104",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_test_ht_prevalence_test_clopper_pearson_zero_event_rule_of_three",
-      "label": "test_clopper_pearson_zero_event_rule_of_three()",
-      "file_type": "code",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L111",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_test_ht_prevalence_test_clopper_pearson_equals_beta_identity",
-      "label": "test_clopper_pearson_equals_beta_identity()",
-      "file_type": "code",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L118",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_test_ht_prevalence_rationale_1",
-      "label": "Deterministic validation of the rare-event estimator toolkit.  Each test pins",
-      "file_type": "rationale",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L1",
-      "_origin": "ast"
-    },
-    {
-      "id": "src_test_ht_prevalence_rationale_47",
-      "label": "Empirically confirm E[p_hat] = true prevalence over many SRSWOR draws.",
-      "file_type": "rationale",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L47",
-      "_origin": "ast"
-    },
-    {
       "id": "methods_crosswalk",
       "label": "METHODS_CROSSWALK.md",
       "file_type": "document",
-      "source_file": "METHODS_CROSSWALK.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "readme",
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "src_agreement_analysis",
-      "label": "src/agreement_analysis.py",
-      "file_type": "code",
-      "source_file": "src/agreement_analysis.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "src_judge",
-      "label": "src/judge.py",
-      "file_type": "code",
-      "source_file": "src/judge.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "src_schema",
-      "label": "src/schema.py",
-      "file_type": "code",
-      "source_file": "src/schema.py",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -431,7 +15,7 @@
       "id": "methods_crosswalk_neyman_allocation",
       "label": "Neyman optimal allocation",
       "file_type": "concept",
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "source_url": null,
       "captured_at": null,
@@ -442,7 +26,7 @@
       "id": "methods_crosswalk_beta_binomial_upper",
       "label": "Beta-Binomial upper bound",
       "file_type": "concept",
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "source_url": null,
       "captured_at": null,
@@ -453,7 +37,7 @@
       "id": "methods_crosswalk_clopper_pearson_upper",
       "label": "Clopper-Pearson exact interval",
       "file_type": "concept",
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "source_url": null,
       "captured_at": null,
@@ -464,7 +48,7 @@
       "id": "methods_crosswalk_horvitz_thompson",
       "label": "Horvitz-Thompson estimator",
       "file_type": "concept",
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "source_url": null,
       "captured_at": null,
@@ -475,7 +59,7 @@
       "id": "methods_crosswalk_construct_validity",
       "label": "Construct validity",
       "file_type": "concept",
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "source_url": null,
       "captured_at": null,
@@ -486,7 +70,7 @@
       "id": "methods_crosswalk_signal_detection",
       "label": "Signal detection theory",
       "file_type": "concept",
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "source_url": null,
       "captured_at": null,
@@ -497,7 +81,7 @@
       "id": "methods_crosswalk_latent_class_analysis",
       "label": "Latent class analysis (Hui-Walter/Dawid-Skene)",
       "file_type": "concept",
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "source_url": null,
       "captured_at": null,
@@ -508,7 +92,7 @@
       "id": "methods_crosswalk_fightin_words",
       "label": "Fightin' Words (Monroe et al.)",
       "file_type": "concept",
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "source_url": null,
       "captured_at": null,
@@ -519,8 +103,19 @@
       "id": "methods_crosswalk_base_rate_problem",
       "label": "Base-rate problem (Meehl & Rosen)",
       "file_type": "concept",
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme",
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\README.md",
+      "source_location": null,
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -530,7 +125,7 @@
       "id": "readme_no_gold_prevalence",
       "label": "No-gold prevalence estimation",
       "file_type": "concept",
-      "source_file": "README.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\README.md",
       "source_location": "title",
       "source_url": null,
       "captured_at": null,
@@ -541,8 +136,30 @@
       "id": "readme_rare_latent_constructs",
       "label": "Rare latent constructs",
       "file_type": "concept",
-      "source_file": "README.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\README.md",
       "source_location": "title",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "requirements",
+      "label": "requirements.txt",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "scipy",
+      "label": "scipy",
+      "file_type": "concept",
+      "source_file": null,
+      "source_location": null,
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -551,957 +168,12 @@
   ],
   "edges": [
     {
-      "source": "src_ht_prevalence",
-      "target": "math",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L25",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence",
-      "target": "dataclasses",
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L26",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence",
-      "target": "scipy_stats",
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L28",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence",
-      "target": "src_ht_prevalence_stratum",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L36",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence_stratum",
-      "target": "src_ht_prevalence_stratum_post_init",
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L50",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence_stratum",
-      "target": "src_ht_prevalence_stratum_p_hat",
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L59",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence",
-      "target": "src_ht_prevalence_prevalenceestimate",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L65",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence",
-      "target": "src_ht_prevalence_horvitz_thompson_prevalence",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L76",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence_horvitz_thompson_prevalence",
-      "target": "src_ht_prevalence_stratum",
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L76",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence_horvitz_thompson_prevalence",
-      "target": "src_ht_prevalence_prevalenceestimate",
-      "relation": "references",
-      "context": "return_type",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L76",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence",
-      "target": "src_ht_prevalence_neyman_allocation",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L139",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence",
-      "target": "src_ht_prevalence_beta_binomial_upper",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L194",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence",
-      "target": "src_ht_prevalence_clopper_pearson_upper",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L226",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence_horvitz_thompson_prevalence",
-      "target": "src_ht_prevalence_prevalenceestimate",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L124",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence_rationale_1",
-      "target": "src_ht_prevalence",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence_rationale_37",
-      "target": "src_ht_prevalence_stratum",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L37",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence_rationale_60",
-      "target": "src_ht_prevalence_stratum_p_hat",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L60",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence_rationale_80",
-      "target": "src_ht_prevalence_horvitz_thompson_prevalence",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L80",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence_rationale_144",
-      "target": "src_ht_prevalence_neyman_allocation",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L144",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence_rationale_201",
-      "target": "src_ht_prevalence_beta_binomial_upper",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L201",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ht_prevalence_rationale_227",
-      "target": "src_ht_prevalence_clopper_pearson_upper",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ht_prevalence.py",
-      "source_location": "L227",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class",
-      "target": "argparse",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L19",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class",
-      "target": "csv",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L19",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class",
-      "target": "glob",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L19",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class",
-      "target": "os",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L19",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class",
-      "target": "random",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L19",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class",
-      "target": "collections",
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L20",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class",
-      "target": "src_latent_class_load",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L30",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class",
-      "target": "src_latent_class_em",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L49",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class",
-      "target": "src_latent_class_bootstrap_ci",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L85",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class",
-      "target": "src_latent_class_independence_diag",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L98",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class",
-      "target": "src_latent_class_main",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L117",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class_bootstrap_ci",
-      "target": "src_latent_class_em",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L92",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class_main",
-      "target": "src_latent_class_load",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L123",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class_main",
-      "target": "src_latent_class_em",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L127",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class_main",
-      "target": "src_latent_class_bootstrap_ci",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L128",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class_main",
-      "target": "src_latent_class_independence_diag",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L147",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class_rationale_1",
-      "target": "src_latent_class",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "src_latent_class_rationale_99",
-      "target": "src_latent_class_independence_diag",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "src/latent_class.py",
-      "source_location": "L99",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining",
-      "target": "csv",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L22",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining",
-      "target": "math",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L22",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining",
-      "target": "os",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L22",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining",
-      "target": "re",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L22",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining",
-      "target": "collections",
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L23",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining",
-      "target": "nltk",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L29",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining",
-      "target": "nltk_corpus",
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L41",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining",
-      "target": "nltk_stem",
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L42",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining",
-      "target": "nltk_collocations",
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L43",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining",
-      "target": "src_signature_mining_toks",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L58",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining",
-      "target": "src_signature_mining_fightin_words",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L62",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining",
-      "target": "src_signature_mining_main",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L83",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining_fightin_words",
-      "target": "src_signature_mining_toks",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L65",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining_main",
-      "target": "src_signature_mining_fightin_words",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L92",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining_main",
-      "target": "src_signature_mining_toks",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L102",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining_rationale_1",
-      "target": "src_signature_mining",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "src_signature_mining_rationale_63",
-      "target": "src_signature_mining_fightin_words",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "src/signature_mining.py",
-      "source_location": "L63",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence",
-      "target": "math",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L10",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence",
-      "target": "random",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L11",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence",
-      "target": "scipy_stats",
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L13",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence",
-      "target": "ht_prevalence",
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L15",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence",
-      "target": "src_test_ht_prevalence_test_ht_single_stratum_is_sample_proportion",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L27",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence",
-      "target": "src_test_ht_prevalence_test_ht_is_weighted_mean_of_stratum_proportions",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L32",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence",
-      "target": "src_test_ht_prevalence_test_ht_census_stratum_has_zero_variance",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L39",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence",
-      "target": "src_test_ht_prevalence_test_ht_unbiased_by_monte_carlo",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L46",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence",
-      "target": "src_test_ht_prevalence_test_neyman_matches_closed_form",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L70",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence",
-      "target": "src_test_ht_prevalence_test_neyman_sums_exactly_and_is_positive",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L77",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence",
-      "target": "src_test_ht_prevalence_test_neyman_degenerate_falls_back_to_proportional",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L84",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence",
-      "target": "src_test_ht_prevalence_test_beta_binomial_uniform_prior_equals_beta_quantile",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L91",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence",
-      "target": "src_test_ht_prevalence_test_beta_binomial_zero_event_is_below_one_and_positive",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L98",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence",
-      "target": "src_test_ht_prevalence_test_clopper_pearson_zero_event_closed_form",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L104",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence",
-      "target": "src_test_ht_prevalence_test_clopper_pearson_zero_event_rule_of_three",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L111",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence",
-      "target": "src_test_ht_prevalence_test_clopper_pearson_equals_beta_identity",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L118",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_rationale_1",
-      "target": "src_test_ht_prevalence",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_rationale_47",
-      "target": "src_test_ht_prevalence_test_ht_unbiased_by_monte_carlo",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L47",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_test_ht_single_stratum_is_sample_proportion",
-      "target": "src_ht_prevalence_horvitz_thompson_prevalence",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L28",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_test_ht_single_stratum_is_sample_proportion",
-      "target": "src_ht_prevalence_stratum",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L28",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_test_ht_is_weighted_mean_of_stratum_proportions",
-      "target": "src_ht_prevalence_stratum",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L33",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_test_ht_is_weighted_mean_of_stratum_proportions",
-      "target": "src_ht_prevalence_horvitz_thompson_prevalence",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L35",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_test_ht_census_stratum_has_zero_variance",
-      "target": "src_ht_prevalence_horvitz_thompson_prevalence",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L41",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_test_ht_census_stratum_has_zero_variance",
-      "target": "src_ht_prevalence_stratum",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L41",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_test_ht_unbiased_by_monte_carlo",
-      "target": "src_ht_prevalence_horvitz_thompson_prevalence",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L59",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_test_ht_unbiased_by_monte_carlo",
-      "target": "src_ht_prevalence_stratum",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L60",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_test_neyman_matches_closed_form",
-      "target": "src_ht_prevalence_neyman_allocation",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L71",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_test_neyman_sums_exactly_and_is_positive",
-      "target": "src_ht_prevalence_neyman_allocation",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L78",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_test_neyman_degenerate_falls_back_to_proportional",
-      "target": "src_ht_prevalence_neyman_allocation",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L86",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_test_beta_binomial_uniform_prior_equals_beta_quantile",
-      "target": "src_ht_prevalence_beta_binomial_upper",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L93",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_test_beta_binomial_zero_event_is_below_one_and_positive",
-      "target": "src_ht_prevalence_beta_binomial_upper",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L99",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_test_clopper_pearson_zero_event_closed_form",
-      "target": "src_ht_prevalence_clopper_pearson_upper",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L106",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_test_clopper_pearson_zero_event_rule_of_three",
-      "target": "src_ht_prevalence_clopper_pearson_upper",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L114",
-      "weight": 1.0
-    },
-    {
-      "source": "src_test_ht_prevalence_test_clopper_pearson_equals_beta_identity",
-      "target": "src_ht_prevalence_clopper_pearson_upper",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/test_ht_prevalence.py",
-      "source_location": "L121",
-      "weight": 1.0
-    },
-    {
-      "source": "readme",
-      "target": "methods_crosswalk",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "see METHODS_CROSSWALK.md",
-      "weight": 1.0
-    },
-    {
-      "source": "readme",
-      "target": "src_ht_prevalence",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "Methods section",
-      "weight": 1.0
-    },
-    {
-      "source": "readme",
-      "target": "src_latent_class",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "Methods section",
-      "weight": 1.0
-    },
-    {
-      "source": "readme",
-      "target": "src_signature_mining",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "Methods section",
-      "weight": 1.0
-    },
-    {
-      "source": "readme",
-      "target": "src_test_ht_prevalence",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "Tests section",
-      "weight": 1.0
-    },
-    {
-      "source": "readme",
-      "target": "readme_no_gold_prevalence",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "title",
-      "weight": 1.0
-    },
-    {
-      "source": "readme",
-      "target": "readme_rare_latent_constructs",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "title",
-      "weight": 1.0
-    },
-    {
       "source": "methods_crosswalk",
       "target": "src_ht_prevalence",
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "weight": 1.0
     },
@@ -1511,7 +183,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "weight": 1.0
     },
@@ -1521,7 +193,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "weight": 1.0
     },
@@ -1531,7 +203,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "weight": 1.0
     },
@@ -1541,7 +213,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "weight": 1.0
     },
@@ -1551,7 +223,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "weight": 1.0
     },
@@ -1561,7 +233,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "weight": 1.0
     },
@@ -1571,7 +243,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "weight": 1.0
     },
@@ -1581,7 +253,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "weight": 1.0
     },
@@ -1591,7 +263,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "weight": 1.0
     },
@@ -1601,7 +273,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "weight": 1.0
     },
@@ -1611,7 +283,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "weight": 1.0
     },
@@ -1621,7 +293,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "weight": 1.0
     },
@@ -1631,7 +303,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
       "weight": 1.0
     },
@@ -1641,8 +313,78 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "METHODS_CROSSWALK.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md",
       "source_location": "section 1",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "methods_crosswalk",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\README.md",
+      "source_location": "see METHODS_CROSSWALK.md",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "src_ht_prevalence",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\README.md",
+      "source_location": "Methods section",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "src_latent_class",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\README.md",
+      "source_location": "Methods section",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "src_signature_mining",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\README.md",
+      "source_location": "Methods section",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "src_test_ht_prevalence",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\README.md",
+      "source_location": "Tests section",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "readme_no_gold_prevalence",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\README.md",
+      "source_location": "title",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "readme_rare_latent_constructs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\README.md",
+      "source_location": "title",
       "weight": 1.0
     },
     {
@@ -1651,7 +393,7 @@
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.9,
-      "source_file": "README.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\README.md",
       "source_location": "Methods section",
       "weight": 1.0
     },
@@ -1661,7 +403,7 @@
       "relation": "implements",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "README.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\README.md",
       "source_location": "Methods section",
       "weight": 1.0
     },
@@ -1671,12 +413,37 @@
       "relation": "implements",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "README.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\README.md",
       "source_location": "Methods section",
+      "weight": 1.0
+    },
+    {
+      "source": "requirements",
+      "target": "scipy",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirements.txt",
+      "source_location": null,
       "weight": 1.0
     }
   ],
   "hyperedges": [
+    {
+      "id": "rare_construct_measurement_foundations",
+      "label": "Rare latent construct measurement theory",
+      "nodes": [
+        "methods_crosswalk_horvitz_thompson",
+        "methods_crosswalk_latent_class_analysis",
+        "methods_crosswalk_base_rate_problem",
+        "methods_crosswalk_construct_validity",
+        "methods_crosswalk_signal_detection"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\METHODS_CROSSWALK.md"
+    },
     {
       "id": "prevalence_estimation_pipeline",
       "label": "Prevalence estimation pipeline",
@@ -1691,24 +458,9 @@
       "relation": "participate_in",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
-      "source_file": "README.md"
-    },
-    {
-      "id": "rare_construct_measurement_foundations",
-      "label": "Rare latent construct measurement theory",
-      "nodes": [
-        "methods_crosswalk_horvitz_thompson",
-        "methods_crosswalk_latent_class_analysis",
-        "methods_crosswalk_base_rate_problem",
-        "methods_crosswalk_construct_validity",
-        "methods_crosswalk_signal_detection"
-      ],
-      "relation": "form",
-      "confidence": "INFERRED",
-      "confidence_score": 0.75,
-      "source_file": "METHODS_CROSSWALK.md"
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\caretaker-prevalence-method\\README.md"
     }
   ],
-  "input_tokens": 4202,
-  "output_tokens": 9424
+  "input_tokens": 876,
+  "output_tokens": 804
 }
