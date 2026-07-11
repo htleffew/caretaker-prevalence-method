@@ -28,5 +28,10 @@
     "mtime": 1783178210.717584,
     "ast_hash": "99e75a65f697de5f03fde1a23a486da6",
     "semantic_hash": "99e75a65f697de5f03fde1a23a486da6"
+  },
+  "requirements.txt": {
+    "mtime": 1782999479.4594195,
+    "ast_hash": "d97d358fa953fcb2cb6db6cab1ad50cd",
+    "semantic_hash": "d97d358fa953fcb2cb6db6cab1ad50cd"
   }
 }
